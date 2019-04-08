@@ -1,0 +1,68 @@
+$color1: #30211e;
+$color2:#99cc33;
+$color3:#256136;
+$color4: #9c9b9b;
+$color5: #fff;
+
+$fontset1:'Lato',
+sans-serif;
+$fontset2: qanelassoft_extrabold;
+$fontset3: qanelassoft_ultralight;
+
+.intro{
+    padding:40px;
+    margin: auto;
+}
+.logo_uitleg{
+    padding:80px;
+    margin:auto;
+    img{
+        width: 25%;
+        justify-content: center;
+        float: right;
+    }
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.card_txt{
+    padding:20px;
+}
+.color_card{
+    margin: auto;
+    height:250px;
+    width: 100%;
+}
+.card-body{
+    max-height:300px;
+    min-height: 200px;
+}
+.btn-outline-primary{
+    background-color:$color5;
+    color:$color1;
+    border-color: $color2;
+    border-width: 1px;
+}
+.btn-outline-primary:hover{
+    background-color:$color2;
+    color:$color5;
+    border-color: $color2;
+    border-width: 1px;
+}
+
+.btn-outline-success{
+    background-color:$color5;
+    color:$color1;
+    border-color: $color2;
+    border-width: 1px;
+}
+.btn-outline-success:hover{
+    background-color:$color2;
+    color:$color5;
+    border-color: $color2;
+    border-width: 1px;
+}
+.btn {
+    font-size:0.7em;
+    }

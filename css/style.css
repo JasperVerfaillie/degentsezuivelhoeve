@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,700,900");
+.intro {
+  padding: 40px;
+  margin: auto;
+}
+
+.logo_uitleg {
+  padding: 80px;
+  margin: auto;
+}
+
+.logo_uitleg img {
+  width: 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: right;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.color_card {
+  margin: auto;
+  height: 250px;
+  width: 100%;
+}
+
+.card-body {
+  max-height: 500px;
+  min-height: 400px;
+}
+
+.intro {
+  padding: 40px;
+  margin: auto;
+}
+
+.logo_uitleg {
+  padding: 80px;
+  margin: auto;
+}
+
+.logo_uitleg img {
+  width: 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: right;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card_txt {
+  padding: 20px;
+}
+
+.color_card {
+  margin: auto;
+  height: 250px;
+  width: 100%;
+}
+
+.card-body {
+  max-height: 300px;
+  min-height: 200px;
+}
+
+.btn-outline-primary {
+  background-color: #fff;
+  color: #30211e;
+  border-color: #99cc33;
+  border-width: 1px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #99cc33;
+  color: #fff;
+  border-color: #99cc33;
+  border-width: 1px;
+}
+
+.btn-outline-success {
+  background-color: #fff;
+  color: #30211e;
+  border-color: #99cc33;
+  border-width: 1px;
+}
+
+.btn-outline-success:hover {
+  background-color: #99cc33;
+  color: #fff;
+  border-color: #99cc33;
+  border-width: 1px;
+}
+
+.btn {
+  font-size: 0.7em;
+}
+
+@font-face {
+  font-family: qanelassoft_extrabold;
+  src: url(../fonts/QanelasSoftDEMO-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: qanelassoft_ultralight;
+  src: url(../fonts/QanelasSoftDEMO-UltraLight.otf);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #30211e;
+}
+
+nav {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: #30211e;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.navbar-brand img {
+  height: 4vw;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.nav-item {
+  color: #30211e;
+}
+
+.nav-item :hover {
+  color: #99cc33;
+}
+
+.nav-item li.active {
+  color: #99cc33;
+  font-weight: 900;
+}
+
+.cool-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
+
+h1 {
+  font-family: qanelassoft_extrabold;
+  font-size: 2.5em;
+}
+
+h5 {
+  font-family: qanelassoft_extrabold;
+  font-size: 5.5vw;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 4vw;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: qanelassoft_ultralight;
+}
+
+.jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #99cc33;
+  margin-bottom: 80px;
+  max-height: 300px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumbotron_txt {
+  width: 100%;
+}
+
+.jumbotron_img img {
+  min-width: 130px;
+  min-height: 150px;
+  width: 75%;
+  padding: 20px;
+}
+
+.img_container {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  position: absolute;
+  color: #fff;
+  background-color: #30211e;
+  height: 250px;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.75em;
+  font-weight: 300;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.75em;
+}
+
+.footer_img {
+  height: 75px;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.card_img img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
