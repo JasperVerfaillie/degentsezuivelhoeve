@@ -113,7 +113,7 @@ h4 {
 .jumbotron {
     display: flex;
     background-color: $color2;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     max-height: 300px;
     flex-flow: row;
     align-items: center;
@@ -149,9 +149,8 @@ footer {
     height: 250px;
     width: 100%;
     margin-top: 100px;
-    text-align: center;
     padding: 20px;
-    font-size: 0.75em;
+    font-size: 1em;
     font-weight: 300;
     display: inline-flex;
     align-items: center;
@@ -184,4 +183,17 @@ strong {
         height:200px;
         object-fit: cover;
     }
+}
+
+.carousel_item{
+    height: 500px;
+}
+
+a{
+    text-decoration: none;
+    color:$color1;
+}
+a:hover{
+    text-decoration: none;
+    color:$color2;
 }

@@ -200,7 +200,7 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   background-color: #99cc33;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   max-height: 300px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -242,9 +242,8 @@ footer {
   height: 250px;
   width: 100%;
   margin-top: 100px;
-  text-align: center;
   padding: 20px;
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: 300;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -286,5 +285,19 @@ strong {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.carousel_item {
+  height: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: #30211e;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #99cc33;
 }
 /*# sourceMappingURL=style.css.map */
